@@ -13,10 +13,6 @@ nextjs のページコンポーネントを配置します。
 コンポーネントを配置します。
 デザインパターンは atomic design を参考にしています。
 
-#### components/
-
-コンポーネント群を配置します。
-
 #### components/functional
 
 見た目がないコンポーネントを配置する。
@@ -53,3 +49,7 @@ chakra-ui で使用する theme 関連のファイルを配置します。
 #### utils/
 
 googleTagManager 等の analytics 関連のファイルを配置します。
+
+#### types/
+
+汎用的な型定義ファイルを配置します。
