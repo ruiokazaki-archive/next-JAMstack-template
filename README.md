@@ -4,52 +4,52 @@
 
 全てのソースコードを配置します。
 
-#### src/pages/
+#### pages/
 
 nextjs のページコンポーネントを配置します。
 
-#### src/components/
+#### components/
 
 コンポーネントを配置します。
 デザインパターンは atomic design を参考にしています。
 
-#### src/components/
+#### components/
 
 コンポーネント群を配置します。
 
-#### src/components/functional
+#### components/functional
 
 見た目がないコンポーネントを配置する。
 ログイン判定などのコンポーネント。
 
-#### src/components/ui-elements
+#### components/ui-elements
 
 Atomic デザインでいうところの atoms です。
 最小単位のコンポーネントです。
 button や unordered list でいう list item などが当たります。
 
-#### src/components/ui-parts
+#### components/ui-parts
 
 Atomic デザインでいうところの molecules です。
 最小単位のコンポーネントが複数合わさったコンポーネントです。
 unordered list や header などが当たります。
 
-#### src/hooks/
+#### hooks/
 
 カスタムフックを配置します。
 
-#### src/apis/
+#### apis/
 
 aspida で使用する型情報を配置します。
 
-#### src/libs/
+#### libs/
 
 ライブラリの初期化や設定ファイルを配置します。
 
-#### src/theme/
+#### theme/
 
 chakra-ui で使用する theme 関連のファイルを配置します。
 
-#### src/utils/
+#### utils/
 
 googleTagManager 等の analytics 関連のファイルを配置します。
