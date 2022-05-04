@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
-    "fix": "npm run -s format && npm run -s lint:fix",
+    "fix": "yarn -s format && yarn -s lint:fix",
     "format": "prettier --write --loglevel=warn '{public,src}/**/*.{js,jsx,ts,tsx,html,gql,graphql,json}'",
     "preinstall": "typesync || :"
   },
