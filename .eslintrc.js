@@ -36,7 +36,7 @@ module.exports = {
     'react-hooks',
   ],
   rules: {
-    // oid を式として使用を禁止する
+    // void を式として使用を禁止する
     'no-void': [
       'error',
       {
