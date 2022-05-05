@@ -157,6 +157,14 @@ module.exports = {
     'object-curly-newline': 'off',
     // _app.tsx で props のエラーが出るため無効化する
     'react/jsx-props-no-spreading': 'off',
+    // storybook のみ devDependencies からの importでエラーを出さない様にする
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/*.stories.tsx'],
+        optionalDependencies: false,
+      },
+    ],
   },
   overrides: [
     {
