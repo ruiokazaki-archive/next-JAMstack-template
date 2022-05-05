@@ -37,7 +37,7 @@ nextjs のページコンポーネントを配置します。
 
 コンポーネントを配置します。
 デザインパターンは atomic design を参考にしています。
-ui-elements と ui-parts は make.sh を実行してファイルを作成してください。
+`ui-elements` と `ui-parts` は `yarn mc` を実行してファイルを作成してください。
 
 ### components/functional
 

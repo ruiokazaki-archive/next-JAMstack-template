@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\n========コンポーネントを作成します========\n"
+echo "\n========コンポーネントを作成します========\n"
 
 COMPONENTS_DIR='src/components'
 if [ ! -d $COMPONENTS_DIR ];then
@@ -40,7 +40,7 @@ const $COMPONENTS_NAME: VFC<Props> = ({  }) => {
 };
 export default $COMPONENTS_NAME;
 EOF
-echo ✅ コンポーネント file を作成しました
+echo ✅ $COMPONENTS_NAME/index.tsx を作成しました
 
 cat <<EOF > $COMPONENTS_DIR/$GENRE/$COMPONENTS_NAME/$COMPONENTS_NAME.stories.tsx
 import { ComponentStory, ComponentMeta } from '@storybook/react';
@@ -56,4 +56,4 @@ export const Default1: ComponentStory<typeof $COMPONENTS_NAME> = () => (
   <$COMPONENTS_NAME></$COMPONENTS_NAME>
 );
 EOF
-echo ✅ StoryBook 用 file を作成しました
+echo ✅ $COMPONENTS_NAME/$COMPONENTS_NAME.stories.tsx を作成しました

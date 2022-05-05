@@ -10,6 +10,7 @@
     "build": "next build",
     "start": "next start",
     "sb": "start-storybook -p 6006",
+    "mc": "sh makeComponentsFile.sh",
     "build-sb": "build-storybook",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
