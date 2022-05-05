@@ -1,3 +1,18 @@
+## npm scripts
+
+| alias    | 実行内容                      | command                                                                                       |
+| -------- | ----------------------------- | --------------------------------------------------------------------------------------------- |
+| dev      | 開発モードで起動              | `next`                                                                                        |
+| build    | ビルドします                  | `next build`                                                                                  |
+| start    | 本番モードで起動              | `next start`                                                                                  |
+| mc       | component を作成              | `sh makeComponentsFile.sh`                                                                    |
+| sb       | StoryBook を起動              | `start-storybook -p 6006`                                                                     |
+| build-sb | StoryBook をビルド            | `build-storybook`                                                                             |
+| lint     | ESLint でコードをチェック     | `eslint 'src/\*_/_.{js,jsx,ts,tsx}'`                                                          |
+| lint:fix | ESLint でコードを修正         | `eslint --fix 'src/\*_/_.{js,jsx,ts,tsx}'`                                                    |
+| format   | prettier でコードを format    | `prettier --write --loglevel=warn '{public,src}/\*_/_.{js,jsx,ts,tsx,html,gql,graphql,json}'` |
+| fix      | format した後 linter にかける | `yarn -s format && yarn -s lint:fix`                                                          |
+
 ## commit message
 
 [Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/) の規則に沿って commit message を記述してください。
